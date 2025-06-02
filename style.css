@@ -3,11 +3,11 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     background-color: rgb(251, 247, 255);
-    color: rgb(73, 56, 88);
+    color: rgb(252, 249, 255);
 }
 
 header {
-    background-color: #4c2f72 ;
+    background-color: #f3f0f7 ;
     color: #ece6f3;
     text-align: center;
     padding: 1.5rem 1rem;
