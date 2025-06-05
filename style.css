@@ -7,8 +7,8 @@ body {
 }
 
 header {
-    background-color: #f3f0f7 ;
-    color: #ece6f3;
+    background-color: #c2b0da ;
+    color: #aa81da;
     text-align: center;
     padding: 1.5rem 1rem;
 }
@@ -37,7 +37,7 @@ main {
 }
 
 .curioidade-card {
-    background-color: #ffffff;
+    background-color: #654e80;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     padding: 1rem;
@@ -55,7 +55,7 @@ main {
 
 footer {
     background-color: #7149a5;
-    color: #ffffff;
+    color: #2c1a3a;
     text-align: center;
     padding: 1rem;
     margin-top: 2rem;
