@@ -1,71 +1,63 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
 <head>
- <meta charset="UTF-8" />
- <meta name="viewport" content="width=device-width, initial-scale=1.0" />
- <title>Dicas e Curiosidades</title>
- <link rel="stylesheet" href="style.css" />
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Curiosidades do Desenho</title>
+  <link rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Fredoka&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
-        <h1>Bem-Vindos ao NIworld</h1>
-    </header>
-
+  <header>
+    <h1>Curiosidades do Desenho</h1>
     <nav>
-        <a href="#">Início</a>
-        <a href="#curiosidades">Curiosidades</a>
-        <a href="#vídeos">Vídeos</a>
-        <a href="#galeria">Galeria</a>
-        <a href="#links">Links úteis</a>
+      <ul>
+        <li><a href="#intro">Introdução</a></li>
+        <li><a href="#curiosidades">Curiosidades</a></li>
+        <li><a href="#footer">Rodapé</a></li>
+      </ul>
     </nav>
+  </header>
 
-    <div class="hero">
-        <h2>Explore e Aprenda mais!</h2>
-    </div>
+  <main>
+    <section id="intro">
+      <h2>Sobre o Mundo do Desenho</h2>
+      <p>Você sabia que desenhar é uma habilidade que qualquer pessoa pode aprender com prática? Neste site, você vai descobrir curiosidades incríveis sobre desenho e dicas para começar a desenhar do zero!</p>
+    </section>
 
-    <main>
-        <div class="intro">
-            <p>Temos dicas para melhorar o seu desenvolvimento e outras curiosidades no tema!</p>
-        </div>
+    <section id="curiosidades" class="cards">
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2017/08/01/08/29/art-2563235_960_720.jpg" alt="Mão desenhando" />
+        <h3>Desenho é prática</h3>
+        <p>Todo grande artista começou desenhando palitinhos. A prática constante é o segredo da evolução!</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2020/06/18/19/51/girl-5314285_960_720.jpg" alt="Garota desenhando" />
+        <h3>Observe o mundo</h3>
+        <p>Desenhar bem depende muito da observação. Treine seus olhos a enxergar formas, sombras e proporções.</p>
+      </div>
+      <div class="card">
+        <img src="https://cdn.pixabay.com/photo/2020/07/17/19/53/coloring-5414122_960_720.jpg" alt="Colorindo ilustrações" />
+        <h3>Use referências</h3>
+        <p>Desenhar com base em fotos, objetos ou outros artistas ajuda a melhorar sua técnica e criatividade.</p>
+      </div>
+    </section>
 
-        <section class="dicas">
-            <div class="curiosidade-card">
-                <h3>Qual você gostaria de aprender?</h3>
-                <p>Podemos aprender sobre pinturas, bases, cenários, etc.</p>
-            </div>
+    <section class="random-section">
+      <button id="btnRandom">Mostrar Curiosidade Aleatória</button>
+      <p id="randomFact"></p>
+    </section>
+  </main>
 
-            <div class="curiosidade-card">
-                <h3>Desenvolvimento e Evolução</h3>
-                <p>História sobre o desenvolvimento da arte digital</p>
-            </div>
+  <footer id="footer">
+    <p>Desenvolvido por [Seu Nome]</p>
+    <p>
+      Fontes:
+      <a href="https://www.drawabox.com/" target="_blank">Draw a Box</a> |
+      <a href="https://sketchbook.com/" target="_blank">Sketchbook</a>
+    </p>
+  </footer>
 
-            <div class="curiosidade-card">
-                <h3>Como que acessa?</h3>
-                <p>Aqui vocẽ aprende como mexer em alguns apps para desevolver as suas habilidades.</p>
-            </div>
-        </section>
-
-        <section class="video-section" id="videos">
-            <h2> Veja também:</h2>
-            <p>Assista um tutorial de aprendizagem básica do aplicativo Ibis Paint X</p>
-            <iframe src="https://www.youtube.com/watch?v=uJNfvttqY7Y" allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/watch?v=qYez2QMVIQI" allowfullscreen></iframe>
-            <iframe src="https://www.youtube.com/watch?v=bugiaV_HD8E" allowfullscreen></iframe>
-        </section>
-
-        <section class="galeria" id="galeria">
-            <h2>Fotos do Walt Disney, Fundador da Disney</h2>
-            <!-- Substitua as URLs pelas suas imagens -->
-            <img src="historia.webp" alt="Disney História">
-            <img src="image.webp" alt="Walt Disney">
-            <img src="desenho.jpg" alt="Desenho">
-        </section>
-
-    </main>
-
-    <footer>
-        <p>Site feito por Nikki Mello - Aluna: Andressa C. - Colégio Estadual Vicente Rijo</p>
-    </footer>
-
+  <script src="script.js"></script>
 </body>
 </html>
