@@ -1,73 +1,95 @@
-/* Estilo geral */
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    background-color: rgb(243, 235, 250);
-    color: rgb(107, 89, 127);
+  margin: 0;
+  font-family: 'Fredoka', sans-serif;
+  background-color: #fff9f0;
+  color: #333;
 }
 
 header {
-    background-color: #c2b0da ;
-    color: #7b59a1;
-    text-align: center;
-    padding: 1.5rem 1rem;
+  background-color: #ffb347;
+  padding: 20px;
+  text-align: center;
 }
 
 header h1 {
-    margin: 0;
-    font-size: 2rem;
+  margin: 0;
+  color: #ffffff;
 }
 
-main {
-    max-width: 1000px;
-    margin: 2rem auto;
-    padding: 1rem;
+nav ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
 }
 
-.intro {
-    text-align: center;
-    margin-bottom: 2rem;
+nav a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
 }
 
-.dicas {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 1rem;
-    justify-content: center;
+nav a:hover {
+  text-decoration: underline;
 }
 
-.curioidade-card {
-    background-color: #654e80;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    width: 300px;
-    transition: transform 0.3s ease;
+#intro {
+  padding: 30px;
+  text-align: center;
+  background-color: #fff0d4;
 }
 
-.curioidade-card:hover {
-    transform: scale(1.05);
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 30px;
 }
 
-.curioidade-card h3 {
-    color: #392b4b;
+.card {
+  background-color: #ffffff;
+  border-radius: 10px;
+  width: 280px;
+  padding: 15px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease;
+}
+
+.card img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.random-section {
+  text-align: center;
+  padding: 20px;
+}
+
+button {
+  background-color: #ffb347;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #ff9234;
 }
 
 footer {
-    background-color: #f3e9ff;
-    color: #47295e;
-    text-align: center;
-    padding: 1rem;
-    margin-top: 2rem;
-}
-
-/* Responsividade */
-@media (max-width: 600px) {
-    header h1 {
-        font-size: 1.5rem;
-    }
-
-    .curioidade-card {
-        width: 90%;
-    }
+  background-color: #ffb347;
+  text-align: center;
+  padding: 20px;
+  color: white;
+  font-size: 14px;
 }
