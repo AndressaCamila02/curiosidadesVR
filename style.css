@@ -1,12 +1,12 @@
 body {
   margin: 0;
   font-family: 'Fredoka', sans-serif;
-  background-color: #fff9f0;
-  color: #333;
+  background-color: #def0ff;
+  color: #261d2e;
 }
 
 header {
-  background-color: #ffb347;
+  background-color: #bcade2;
   padding: 20px;
   text-align: center;
 }
@@ -38,7 +38,7 @@ nav a:hover {
 #intro {
   padding: 30px;
   text-align: center;
-  background-color: #fff0d4;
+  background-color: #d4e5ff;
 }
 
 .cards {
@@ -73,7 +73,7 @@ nav a:hover {
 }
 
 button {
-  background-color: #ffb347;
+  background-color: #7a9fb8;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -83,11 +83,11 @@ button {
 }
 
 button:hover {
-  background-color: #ff9234;
+  background-color: #5984a1;
 }
 
 footer {
-  background-color: #ffb347;
+  background-color: #8c67c9;
   text-align: center;
   padding: 20px;
   color: white;
