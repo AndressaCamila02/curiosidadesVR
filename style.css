@@ -54,7 +54,7 @@ nav a:hover {
   border-radius: 10px;
   width: 280px;
   padding: 15px;
-  box-shadow: 0 0 10px rgba(179, 152, 253, 0.411);
+  box-shadow: 0 0 10px rgb(76, 49, 151);
   transition: transform 0.3s ease;
 }
 
