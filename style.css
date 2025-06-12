@@ -45,16 +45,16 @@ nav a:hover {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
-  gap: 20px;
-  padding: 30px;
+  gap: 23px;
+  padding: 33px;
 }
 
 .card {
-  background-color: #ffffff;
+  background-color: #faf6ff;
   border-radius: 10px;
   width: 280px;
   padding: 15px;
-  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  box-shadow: 0 0 10px rgba(179, 152, 253, 0.411);
   transition: transform 0.3s ease;
 }
 
@@ -69,7 +69,7 @@ nav a:hover {
 
 .random-section {
   text-align: center;
-  padding: 20px;
+  padding: 25px;
 }
 
 button {
