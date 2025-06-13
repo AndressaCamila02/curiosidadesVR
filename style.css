@@ -38,7 +38,7 @@ nav a:hover {
 #intro {
   padding: 30px;
   text-align: center;
-  background-color: #d4e5ff;
+  background-color: #a6b7cf;
 }
 
 .cards {
@@ -87,7 +87,7 @@ button:hover {
 }
 
 footer {
-  background-color: #bcade2;
+  background-color: #a899ce;
   text-align: center;
   padding: 20px;
   color: white;
