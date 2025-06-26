@@ -82,6 +82,16 @@ button {
   cursor: pointer;
 }
 
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+nav.uv.li a:hover {
+  color:rgba(102, 131, 189, 0.777)
+}
+
 button:hover {
   background-color: #5984a1;
 }
